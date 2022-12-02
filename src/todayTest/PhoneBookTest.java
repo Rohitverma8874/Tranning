@@ -8,7 +8,7 @@ import java.util.Scanner;
             Scanner sc = new Scanner(System.in);
             PhoneBook phone = new PhoneBook();
             PhoneBook allData = new PhoneBook();
-            System.out.println("Enter 5 for quit .....");
+            System.out.println("Enter 5 for quit ........");
             try {
                 while (true) {
                     System.out.println("Enter 1 for Add new contact, 2 for Delete , 3 for update , 4 for search , 5 for All Contacts and 6 for quit :");
