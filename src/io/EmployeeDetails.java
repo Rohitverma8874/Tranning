@@ -35,17 +35,12 @@ public class EmployeeDetails {
     public void setDepartment(String department) {
         this.department = department;
     }
-    public String getEmail() {
-        return email;
-    }
-    public void setEmail(String email) {
-        this.email = email;
-    }
+
 
     @Override
     public String toString() {
         return "Employee [emp_id = " + emp_id + ", salary = " + salary + ", name = " + name + ", address = " + address
-                + ", department = " + department + ", email = " + email + "]";
+                + ", department = " + department + "]";
     }
 
 }

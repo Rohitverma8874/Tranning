@@ -8,11 +8,10 @@ public class Employee{
         EmployeeDetails emp = new EmployeeDetails();
 
         emp.setEmp_id(101);
-        emp.setName("Emma Watson");
+        emp.setName("Rohit");
         emp.setDepartment("IT");
         emp.setSalary(15000);
         emp.setAddress("New Delhi");
-        emp.setEmail("Emmawatson123@gmail.com");
 
 
         System.out.println(emp);
